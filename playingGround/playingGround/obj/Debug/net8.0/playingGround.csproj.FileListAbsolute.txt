@@ -1,0 +1,14 @@
+C:\Users\Hp\source\repos\playingGround\playingGround\bin\Debug\net8.0\playingGround.exe
+C:\Users\Hp\source\repos\playingGround\playingGround\bin\Debug\net8.0\playingGround.deps.json
+C:\Users\Hp\source\repos\playingGround\playingGround\bin\Debug\net8.0\playingGround.runtimeconfig.json
+C:\Users\Hp\source\repos\playingGround\playingGround\bin\Debug\net8.0\playingGround.dll
+C:\Users\Hp\source\repos\playingGround\playingGround\bin\Debug\net8.0\playingGround.pdb
+C:\Users\Hp\source\repos\playingGround\playingGround\obj\Debug\net8.0\playingGround.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\playingGround\playingGround\obj\Debug\net8.0\playingGround.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\playingGround\playingGround\obj\Debug\net8.0\playingGround.AssemblyInfo.cs
+C:\Users\Hp\source\repos\playingGround\playingGround\obj\Debug\net8.0\playingGround.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\playingGround\playingGround\obj\Debug\net8.0\playingGround.dll
+C:\Users\Hp\source\repos\playingGround\playingGround\obj\Debug\net8.0\refint\playingGround.dll
+C:\Users\Hp\source\repos\playingGround\playingGround\obj\Debug\net8.0\playingGround.pdb
+C:\Users\Hp\source\repos\playingGround\playingGround\obj\Debug\net8.0\playingGround.genruntimeconfig.cache
+C:\Users\Hp\source\repos\playingGround\playingGround\obj\Debug\net8.0\ref\playingGround.dll

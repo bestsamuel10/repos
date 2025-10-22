@@ -1,0 +1,16 @@
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\bin\Debug\net8.0-windows\GoogleForm.exe
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\bin\Debug\net8.0-windows\GoogleForm.deps.json
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\bin\Debug\net8.0-windows\GoogleForm.runtimeconfig.json
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\bin\Debug\net8.0-windows\GoogleForm.dll
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\bin\Debug\net8.0-windows\GoogleForm.pdb
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.Form1.resources
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.csproj.GenerateResource.cache
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.AssemblyInfo.cs
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.dll
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\refint\GoogleForm.dll
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.pdb
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.genruntimeconfig.cache
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\ref\GoogleForm.dll
