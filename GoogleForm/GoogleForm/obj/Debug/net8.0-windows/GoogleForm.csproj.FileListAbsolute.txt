@@ -14,3 +14,4 @@ C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\refint\G
 C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.pdb
 C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.genruntimeconfig.cache
 C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\ref\GoogleForm.dll
+C:\Users\Hp\source\repos\GoogleForm\GoogleForm\obj\Debug\net8.0-windows\GoogleForm.sourcelink.json

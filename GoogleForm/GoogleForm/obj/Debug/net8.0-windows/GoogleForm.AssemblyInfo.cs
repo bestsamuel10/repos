@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoogleForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3d722c1a944eb8136a7879e6f71848b6c4e855f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoogleForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoogleForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
