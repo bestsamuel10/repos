@@ -1,0 +1,132 @@
+
+
+## **.NET Core – File and Data Operations**
+
+### **1. CRUD Operations**
+
+CRUD stands for **Create, Read, Update, and Delete**. These are the four basic actions used in almost every software system that handles data.
+
+In .NET Core, CRUD operations can be applied in different contexts:
+
+* **File operations**: For creating, reading, updating, or deleting files using classes from the `System.IO` namespace.
+* **Database operations**: For managing data stored in relational or NoSQL databases.
+* **API operations**: For sending and receiving data over the web in formats like JSON.
+
+These operations form the foundation of how applications interact with data sources.
+
+---
+
+### **2. File Operations in .NET Core**
+
+File operations allow an application to interact with data stored in files on a system. In .NET Core, this is done using classes provided under the **`System.IO`** namespace. These classes handle tasks like reading, writing, and managing files and streams of data.
+
+**Key classes include:**
+
+* **FileStream**:
+  Used for handling file data at a byte level. It allows you to read from and write to files. It’s flexible and can work with both text and binary data.
+
+* **StreamReader**:
+  Specially designed for reading character data (mainly text) from a file or data stream. It reads data efficiently by buffering the input.
+
+* **StreamWriter**:
+  Used for writing character data (text) to files or other data streams. It can create new files or append data to existing ones.
+
+These classes make it easy to perform basic file handling tasks like saving data to a file, loading content for processing, or updating existing information.
+
+---
+
+### **3. NuGet Packages**
+
+**NuGet** is the **official package manager for .NET**. It allows developers to easily install, update, and manage external libraries or tools within a project.
+
+A **NuGet package** is essentially a collection of compiled code and metadata that adds extra functionality to .NET applications without having to build everything from scratch.
+
+Some common examples of NuGet packages include:
+
+* **Entity Framework Core** – provides tools for working with databases using object-oriented programming.
+* **Newtonsoft.Json** – a popular library for handling JSON data.
+* **Dapper** – a lightweight ORM for mapping data between databases and objects.
+
+NuGet packages are crucial in modern .NET development because they save time, improve reliability, and provide access to community-tested tools.
+
+---
+
+### **4. JSON Handling in .NET Core**
+
+**JSON (JavaScript Object Notation)** is a lightweight format used for storing and exchanging structured data. It is widely used in APIs, databases, and file storage because it is easy for both humans and machines to read and write.
+
+In .NET Core, JSON is used for **serialization** and **deserialization**:
+
+* **Serialization** means converting a .NET object (like a class or record) into a JSON string so it can be stored or sent across the internet.
+* **Deserialization** is the reverse process — converting a JSON string back into a .NET object.
+
+There are two major libraries used in .NET Core for working with JSON:
+
+1. **Newtonsoft.Json (Json.NET)** – an external package available through NuGet. It’s known for being flexible and widely supported.
+2. **System.Text.Json** – built into .NET Core; it’s faster and officially maintained by Microsoft.
+
+**Key point:**
+Although JSON is a string format, .NET treats it as a structured **notation** for representing data. It allows developers to transfer and process data easily between applications, especially when working with web APIs.
+
+---
+
+### **5. Naming Conventions and Access Modifiers in .NET**
+
+Consistent naming conventions and access modifiers are essential for writing clean, readable, and maintainable code.
+
+#### **a. Properties**
+
+* Properties are typically **public**.
+* They use **PascalCase** — where each word starts with a capital letter.
+* Example names: `FirstName`, `DateOfBirth`.
+* Properties often act as the interface through which data is accessed or modified in a class.
+
+#### **b. Fields**
+
+* Fields store data internally within a class.
+* They are usually **private** to ensure data encapsulation and security.
+* The **camelCase** format is used — the first letter is lowercase, and each new word begins with an uppercase letter.
+* Example names: `_age`, `_studentName`.
+
+#### **c. Local Variables**
+
+* Local variables are declared inside a method and exist only while the method is running.
+* They are automatically **private** to that method.
+* They also follow **camelCase** naming style.
+
+#### **d. Interface Members**
+
+* Everything declared inside an **interface** is automatically **public**.
+* This means that any class implementing that interface must provide a definition for all of its members.
+* Interfaces are used to define a contract or set of rules that a class must follow.
+
+Following these conventions makes your code easier for others (and yourself) to understand and maintain.
+
+---
+
+### **6. Database Classes in .NET Core**
+
+When working with databases in .NET Core, developers use **classes** to represent both the database itself and the data tables within it.
+
+Every database operation in .NET Core is typically built around two main class types:
+
+1. **Database Context Class**:
+   This is the main class that manages database connections and operations. It acts as a bridge between the .NET application and the database.
+   In **Entity Framework Core (EF Core)**, this class is usually derived from `DbContext`. It allows you to query, insert, update, and delete records.
+
+2. **Model (Entity) Classes**:
+   These represent the structure of your database tables. Each class corresponds to a table, and each property in the class corresponds to a column in that table.
+   For example, a `Student` class might have properties like `Name`, `Age`, and `Email`, which match columns in the `Students` table.
+
+Having these classes ensures that data from the database can be easily accessed, modified, and displayed using object-oriented principles rather than direct SQL commands.
+
+---
+
+### **Summary**
+
+* **CRUD operations** define how data is created, read, updated, and deleted.
+* **System.IO classes** like `FileStream`, `StreamReader`, and `StreamWriter` handle file input and output.
+* **NuGet packages** extend .NET functionality with ready-made libraries.
+* **JSON** allows structured data to be serialized and deserialized for storage or communication.
+* **Naming conventions** (PascalCase for properties, camelCase for fields) ensure consistency and readability.
+* **Database classes** (like `DbContext` and model entities) make it easier to connect .NET applications to databases in an organized way.
